@@ -23,7 +23,7 @@ export default function HomePage() {
             <section className="mt-24 flex justify-between gap-4">
                 <div className="flex flex-col gap-4">
                     <div>
-                        <h1 className="text-3xl font-semibold before:content-['👋_']">
+                        <h1 className="text-2xl font-semibold before:content-['👋_'] sm:text-3xl">
                             Hi, I&apos;m {siteConfig.author.fullName}
                         </h1>
                         <p className="text-lg text-zinc-100/80">
