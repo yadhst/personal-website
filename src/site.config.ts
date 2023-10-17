@@ -79,7 +79,20 @@ export const siteConfig = {
                 since: "2023",
             },
         ],
-        projects: [],
+        projects: [
+            {
+                name: "Karya Tulis Library",
+                description:
+                    "Library of Santri Writings at Islamic Association Islamic Boarding School 112 Bogor",
+                cover: "/images/projects/karya-tulis-library.jpg",
+                links: [
+                    {
+                        label: "Website",
+                        href: "https://karlib.ppi112bogor.com/",
+                    },
+                ],
+            },
+        ],
         links: {
             github: "https://github.com/yadh75",
             discord: "https://discord.com/users/1116578460119355402",
