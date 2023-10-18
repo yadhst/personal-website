@@ -20,7 +20,7 @@ export function ProjectCard({
     links,
 }: ProjectCardProps) {
     return (
-        <div className="glassmorphism-effect rounded-md border border-zinc-100/10">
+        <div className="rounded-md border border-zinc-100/10 bg-zinc-100/10">
             <div className="pointer-events-none select-none">
                 <Image
                     alt="cover"

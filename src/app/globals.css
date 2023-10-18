@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-[#131126] text-zinc-100;
-}
-
-.glassmorphism-effect {
-    @apply bg-zinc-100/10 backdrop-blur backdrop-filter;
+    @apply bg-night text-zinc-100;
 }
 
 .blobs {

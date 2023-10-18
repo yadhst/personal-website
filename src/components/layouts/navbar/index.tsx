@@ -26,7 +26,7 @@ export function Navbar() {
     const [opened, setOpened] = useState(false);
 
     return (
-        <header className="glassmorphism-effect sticky left-0 right-0 top-4 z-50 rounded-md shadow shadow-zinc-950/20">
+        <header className="bg-night sticky left-0 right-0 top-4 z-50 rounded-lg border border-zinc-100/10 shadow-md">
             <div className="flex items-center justify-between gap-4 px-6 py-4">
                 <div className="pointer-events-none select-none">
                     <span className="text-2xl font-bold">Yadh</span>

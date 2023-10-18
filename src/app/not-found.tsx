@@ -22,7 +22,7 @@ export default function NotFoundPage() {
             <div className="flex flex-wrap items-center gap-4">
                 <Link
                     href="/"
-                    className="glassmorphism-effect rounded-sm border border-zinc-100/0 px-4 py-2 transition-colors duration-150 hover:border-zinc-100/10 hover:bg-zinc-100/0"
+                    className="rounded-sm border border-zinc-100/0 bg-zinc-100/10 px-4 py-2 transition-colors duration-150 hover:border-zinc-100/10 hover:bg-zinc-100/0"
                 >
                     <span>/home</span>
                 </Link>

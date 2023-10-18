@@ -12,7 +12,7 @@ export function SkillCard({ name, description, since }: SkillCardProps) {
     return (
         <div
             key={name}
-            className="glassmorphism-effect flex flex-col gap-2 rounded-sm border border-zinc-100/10 px-6 py-6"
+            className="flex flex-col gap-2 rounded-sm border border-zinc-100/10 bg-zinc-100/10 px-6 py-6"
         >
             <div>
                 <Image alt="brand" src={brandImageUrl} width={50} height={50} />
