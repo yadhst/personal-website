@@ -98,6 +98,7 @@ export const siteConfig = {
             discord: "https://discord.com/users/1116578460119355402",
             instagram: "https://www.instagram.com/yadh_75",
             facebook: "https://www.facebook.com/me",
+            threads: "https://www.threads.net/@yadh_75",
         },
     },
 } as const;

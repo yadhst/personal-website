@@ -1,6 +1,7 @@
 import { type Metadata } from "next";
 import Link from "next/link";
 import { BsGithub, BsDiscord, BsInstagram, BsFacebook } from "react-icons/bs";
+import { FaThreads } from "react-icons/fa6";
 
 import { cn } from "@/lib/utils";
 import { siteConfig } from "@/site.config";
@@ -11,6 +12,7 @@ const socialIcons: Record<SocialIconKeys, JSX.Element> = {
     discord: <BsDiscord className="h-8 w-8" />,
     instagram: <BsInstagram className="h-8 w-8" />,
     facebook: <BsFacebook className="h-8 w-8" />,
+    threads: <FaThreads className="h-8 w-8" />,
 };
 
 export const metadata: Metadata = {

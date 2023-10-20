@@ -43,7 +43,8 @@ body {
     @apply text-indigo-600;
 }
 
-.sosmed_icon:hover.instagram {
+.sosmed_icon:hover.instagram,
+.sosmed_icon:hover.threads {
     @apply text-pink-600;
 }
 
