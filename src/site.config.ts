@@ -94,11 +94,11 @@ export const siteConfig = {
             },
         ],
         links: {
-            github: "https://github.com/yadh75",
+            github: "https://github.com/yadhst",
             discord: "https://discord.com/users/1116578460119355402",
-            instagram: "https://www.instagram.com/yadh_75",
+            instagram: "https://www.instagram.com/yadhst",
             facebook: "https://www.facebook.com/me",
-            threads: "https://www.threads.net/@yadh_75",
+            threads: "https://www.threads.net/@yadhst",
         },
     },
 } as const;
